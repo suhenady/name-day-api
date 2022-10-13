@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(15, 2, 24);
+  background-image: url("img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg");
+  background-size: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input[type="name"] {
+  width: 200px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+
+input[type="date"] {
+  width: 200px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+
+
+button[type="button"] {
+  width: 200px;
+  margin-bottom: 1.5%;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(252, 254, 207);
+}
+
+h1 {
+  padding: 2%;
+  font-size: 3.5rem;
+}
+
+h3 {
+  margin: 2.5%;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 5px;
+  padding: 1.5%;
+}
+
+/*iframe{
+  padding: 1.5%;
+}*/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
